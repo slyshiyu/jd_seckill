@@ -24,12 +24,10 @@
 ## 使用教程  
 #### 1. 网页扫码登录
 #### 2. 填写config.ini配置信息 
-(1)eid,和fp找个普通商品随便下单,然后抓包就能看到,这两个值可以填固定的 
-> 不会的话参考原作者的issue https://github.com/zhou-xiaojun/jd_mask/issues/22
+(1)eid和fp用浏览器打开京东，并登陆，随意选择一个商品进入提交界面，将get_eid_fp.html文件拖到当前浏览器，即可看到想要的eid和fp值
 
-(2)cookies_string,sku_id,DEFAULT_USER_AGENT(和cookie获取同一个地方就会看到.直接复制进去就可以了) 
->这里注意每次扫码登陆后都需要重新获取cookies_string,其他两个不用  
->sku_id我已经按照茅台的填好 
+(2)cookies_string，sku_id，DEFAULT_USER_AGENT(和cookie获取同一个地方就会看到.直接复制进去就可以了) 
+>cookie可以通过log.gif的请求获取，sku_id在商品详情页从url即可复制，DEFAULT_USER_AGENT可以不用改
 
 (3)配置一下时间
  
