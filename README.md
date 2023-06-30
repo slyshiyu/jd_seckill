@@ -24,7 +24,7 @@
 ## 使用教程  
 #### 1. 网页扫码登录
 #### 2. 填写config.ini配置信息 
-(1)eid和fp用浏览器打开京东，并登陆，随意选择一个商品进入提交界面，将get_eid_fp.html文件拖到当前浏览器，即可看到想要的eid和fp值
+(1)eid和fp用浏览器打开京东，并登陆，随意选择一个商品进入提交界面，将get_eid_fp.html文件拖到当前浏览器，即可看到想要的eid和fp值，这两个值可以填固定的
 
 (2)cookies_string，sku_id，DEFAULT_USER_AGENT(和cookie获取同一个地方就会看到.直接复制进去就可以了) 
 >cookie可以通过log.gif的请求获取，sku_id在商品详情页从url即可复制，DEFAULT_USER_AGENT可以不用改
