@@ -326,7 +326,7 @@ class JdSeckill(object):
             return True
         else:
             logger.info('抢购失败，返回信息:{}'.format(resp_json))
-            if global_config.getRaw('messenger', 'enable') == 'true':
-                error_message = '抢购失败，返回信息:{}'.format(resp_json)
-                send_wechat(error_message)
+            # if global_config.getRaw('messenger', 'enable') == 'true':
+            #     error_message = '抢购失败，返回信息:{}'.format(resp_json)
+            #     send_wechat(error_message)
             return False
