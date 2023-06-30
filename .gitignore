@@ -1,1 +1,3 @@
 .vscode/
+__pycache__/
+jd_seckill.log
